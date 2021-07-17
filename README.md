@@ -259,7 +259,15 @@ https://github.com/gurnitha/django_ecommerce_venam
 
 
 
+### =================================
+###     5. REQUIREMENTS.TXT FILE
+### =================================
 
+
+#### 5.1.22 Membuat requirements.txt file
+
+        modified:   README.md
+        new file:   requirements.txt
 
 
 
