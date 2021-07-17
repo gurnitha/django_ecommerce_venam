@@ -205,10 +205,20 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   config/settings.py 
 
 
+#### 3.8.18 Fixing error
 
+        FATAL:  database "django_ecommerce_venam" does not exist
 
+        # drop database
+        hp=# drop database django_ecommerce_venama;
+        DROP DATABASE
 
+        # create database
+        hp=# create database django_ecommerce_venam;
+        CREATE DATABASE
+        hp=#
 
+        modified:   README.md
 
 
 
