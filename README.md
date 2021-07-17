@@ -62,9 +62,18 @@ https://github.com/gurnitha/django_ecommerce_venam
         new file:   manage.py
 
 
+#### 2.2.7 Membuat Django dgn nama 'apps/main'
 
-
-
+        modified:   README.md
+        new file:   apps/main/__init__.py
+        new file:   apps/main/admin.py
+        new file:   apps/main/apps.py
+        new file:   apps/main/migrations/__init__.py
+        new file:   apps/main/models.py
+        new file:   apps/main/tests.py
+        new file:   apps/main/views.py
+        new file:   config/__pycache__/__init__.cpython-39.pyc
+        new file:   config/__pycache__/settings.cpython-39.pyc
 
 
 
