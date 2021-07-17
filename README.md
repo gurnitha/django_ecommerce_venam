@@ -221,8 +221,18 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   README.md
 
 
+#### 3.9.19 Jalankan server untuk menguji koneksi
 
+        (venv3932) λ python manage.py runserver
+        ...
+        System check identified no issues (0 silenced).
+        ...
+        Starting development server at http://127.0.0.1:8000/
 
+        modified:   README.md
+
+        NOTE: error fixed
+        :)
 
 
 
