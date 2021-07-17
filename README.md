@@ -192,6 +192,10 @@ https://github.com/gurnitha/django_ecommerce_venam
         hp=# 
 
 
+#### 3.6.16 Menambahkan database kredensial pada .env file
+
+        modified:   README.md
+        modified:   config/.env
 
 
 
