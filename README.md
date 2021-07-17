@@ -29,3 +29,7 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   README.md
 
 
+#### 1.3.3 Membuat virtual environment
+
+        modified:   .gitignore
+        modified:   README.md
