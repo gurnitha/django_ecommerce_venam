@@ -95,8 +95,54 @@ https://github.com/gurnitha/django_ecommerce_venam
         new file:   config/__pycache__/urls.cpython-39.pyc
         new file:   config/__pycache__/wsgi.cpython-39.pyc
         new file:   db.sqlite3 
+ 
 
+#### 2.5.9 Structure project 
 
+        .
+        ├── README.md
+        ├── apps
+        │   └── main
+        │       ├── __init__.py
+        │       ├── __pycache__
+        │       ├── admin.py
+        │       ├── apps.py
+        │       ├── migrations
+        │       ├── models.py
+        │       ├── tests.py
+        │       └── views.py
+        ├── config
+        │   ├── __init__.py
+        │   ├── __pycache__
+        │   │   ├── __init__.cpython-39.pyc
+        │   │   ├── settings.cpython-39.pyc
+        │   │   ├── urls.cpython-39.pyc
+        │   │   └── wsgi.cpython-39.pyc
+        │   ├── asgi.py
+        │   ├── settings.py
+        │   ├── urls.py
+        │   └── wsgi.py
+        ├── db.sqlite3
+        ├── manage.py
+        └── venv3932
+            ├── Include
+            ├── Lib
+            │   └── site-packages
+            ├── Scripts
+            │   ├── Activate.ps1
+            │   ├── __pycache__
+            │   ├── activate
+            │   ├── activate.bat
+            │   ├── deactivate.bat
+            │   ├── django-admin.exe
+            │   ├── django-admin.py
+            │   ├── pip.exe
+            │   ├── pip3.9.exe
+            │   ├── pip3.exe
+            │   ├── python.exe
+            │   ├── pythonw.exe
+            │   └── sqlformat.exe
+            └── pyvenv.cfg
 
 
 
