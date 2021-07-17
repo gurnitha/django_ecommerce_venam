@@ -76,8 +76,11 @@ https://github.com/gurnitha/django_ecommerce_venam
         new file:   config/__pycache__/settings.cpython-39.pyc
 
 
+#### 2.3.8 Meregistrasi main app pada django project 'settings.py'
 
-
+        modified:   README.md
+        modified:   apps/main/apps.py
+        modified:   config/settings.py
 
 
 
