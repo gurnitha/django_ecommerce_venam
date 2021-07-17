@@ -1,5 +1,7 @@
 # MEMBUAT APLIKASI ECOMMERCE YG BERFUNGSI SCR PENUH MENGGUNAKAN DJANGO V3.2
 
+https://github.com/gurnitha/django_ecommerce_venam
+
 
 ### ================
 ### 	1. SETUP
@@ -18,3 +20,12 @@
 
         new file:   .gitignore
         new file:   README.md
+
+
+#### 1.2.2 Membuat remote repository di Gihub
+
+        https://github.com/gurnitha/django_ecommerce_venam
+
+        modified:   README.md
+
+
