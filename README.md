@@ -198,7 +198,11 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   config/.env
 
 
+#### 3.7.17 Konek .env file dengan the project 'settings.py'
 
+        modified:   README.md
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/settings.py 
 
 
 
