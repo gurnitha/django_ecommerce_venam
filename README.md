@@ -185,6 +185,11 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   config/settings.py
 
 
+#### 3.5.15 Create PostgreSQL database 
+
+        hp=# CREATE DATABASE django_ecommerce_venama;
+        CREATE DATABASE
+        hp=# 
 
 
 
