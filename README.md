@@ -151,7 +151,17 @@ https://github.com/gurnitha/django_ecommerce_venam
 
 
 
+### ===================
+###     3. DATABASE
+### ===================
 
+
+#### 3.1.11 Instal django environ
+
+        source: https://django-environ.readthedocs.io/en/latest/
+        (venv3932) λ pip install django-environ
+
+        modified:   README.md
 
 
 
