@@ -38,3 +38,8 @@ https://github.com/gurnitha/django_ecommerce_venam
 #### 1.4.4 Menginstal Django
 
         modified:   README.md 
+
+
+#### 1.5.5 Meng-upgrade pip
+
+        modified:   README.md
