@@ -83,7 +83,18 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   config/settings.py
 
 
+#### 2.4.9 Menjalankan server
 
+        modified:   README.md
+        new file:   apps/main/__pycache__/__init__.cpython-39.pyc
+        new file:   apps/main/__pycache__/admin.cpython-39.pyc
+        new file:   apps/main/__pycache__/apps.cpython-39.pyc
+        new file:   apps/main/__pycache__/models.cpython-39.pyc
+        new file:   apps/main/migrations/__pycache__/__init__.cpython-39.pyc
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        new file:   config/__pycache__/urls.cpython-39.pyc
+        new file:   config/__pycache__/wsgi.cpython-39.pyc
+        new file:   db.sqlite3 
 
 
 
