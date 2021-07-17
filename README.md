@@ -33,3 +33,8 @@ https://github.com/gurnitha/django_ecommerce_venam
 
         modified:   .gitignore
         modified:   README.md
+
+
+#### 1.4.4 Menginstal Django
+
+        modified:   README.md 
