@@ -178,6 +178,11 @@ https://github.com/gurnitha/django_ecommerce_venam
         new file:   config/.env
 
 
+#### 3.4.14 Moving Project's SECRET_KEY to .env file
+
+        modified:   README.md
+        modified:   config/.env
+        modified:   config/settings.py
 
 
 
