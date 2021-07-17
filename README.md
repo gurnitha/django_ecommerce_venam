@@ -249,7 +249,13 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   config/settings.py
 
 
+#### 4.2.21 Membuat path untuk STATIC_ROOT dan MEDIA_ROOT pada 'config/urls.py'
 
+        (venv3932) λ python manage.py check
+        System check identified no issues (0 silenced).
+
+        modified:   README.md
+        modified:   config/urls.py
 
 
 
