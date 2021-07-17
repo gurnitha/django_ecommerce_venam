@@ -164,10 +164,11 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   README.md
 
 
+#### 3.2.12 Install PostgreSQL driver
 
+        (venv3932) λ python -m pip install psycopg2-binary==2.8.6
 
-
-
+        modified:   README.md
 
 
 
