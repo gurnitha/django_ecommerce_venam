@@ -270,9 +270,12 @@ https://github.com/gurnitha/django_ecommerce_venam
         new file:   requirements.txt
 
 
+#### 5.2.23 Menulis informasi project ke dalam requirements.txt file
 
+        (venv3932) λ pip freeze > requirements.txt 
 
-
+        modified:   README.md
+        modified:   requirements.txt
 
 
 
