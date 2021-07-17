@@ -145,6 +145,9 @@ https://github.com/gurnitha/django_ecommerce_venam
             └── pyvenv.cfg
 
 
+#### 2.6.10 Menempatkan files project pada Gihub
+
+        modified:   README.md 
 
 
 
