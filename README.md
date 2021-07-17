@@ -236,6 +236,22 @@ https://github.com/gurnitha/django_ecommerce_venam
 
 
 
+### =================================
+###     4. STATIC DAN MEDIA FILES
+### =================================
+
+
+#### 4.1.20 Setting up static dan media files pada 'settings.py' file
+
+        modified:   README.md
+        modified:   config/__pycache__/settings.cpython-39.pyc
+        modified:   config/__pycache__/urls.cpython-39.pyc
+        modified:   config/settings.py
+
+
+
+
+
 
 
 
