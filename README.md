@@ -171,8 +171,11 @@ https://github.com/gurnitha/django_ecommerce_venam
         modified:   README.md
 
 
+#### 3.3.13 Create .env file and setup environ
 
-
+        modified:   .gitignore
+        modified:   README.md
+        new file:   config/.env
 
 
 
