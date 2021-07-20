@@ -39,3 +39,9 @@
 
         modified:   README.md
         new file:   apps/core/migrations/0001_initial.py
+
+
+#### 3.3.5 Register models to admin and define the admin display
+
+        modified:   README.md
+        modified:   apps/core/admin.py
