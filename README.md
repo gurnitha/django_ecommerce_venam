@@ -33,3 +33,9 @@
         modified:   README.md
         modified:   README.md
         modified:   apps/core/models.py
+
+
+#### 3.2.4 Run migrations and create superuser
+
+        modified:   README.md
+        new file:   apps/core/migrations/0001_initial.py
