@@ -22,3 +22,14 @@
         modified:   apps/core/models.py
         modified:   config/.env
 
+
+### ----------
+### 3. MODEL
+### ----------
+
+
+#### 3.1.3 Create Banner, Category, Brand, Color, Size, Product, ProductAttribute models
+
+        modified:   README.md
+        modified:   README.md
+        modified:   apps/core/models.py
