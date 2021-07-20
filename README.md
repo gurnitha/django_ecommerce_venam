@@ -45,3 +45,11 @@
 
         modified:   README.md
         modified:   apps/core/admin.py
+
+### ----------------
+### 4. TEMPLATES
+### ----------------
+
+
+#### 4.1.6 Adding and loading static files, create homepage using template inheritance
+

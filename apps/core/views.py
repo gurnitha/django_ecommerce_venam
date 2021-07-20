@@ -6,5 +6,5 @@ from django.shortcuts import render
 # Create your views here.
 
 # Homepage views
-def homepage(request):
+def home(request):
 	return render(request, 'core/index.html')
