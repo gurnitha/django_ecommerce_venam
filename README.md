@@ -92,6 +92,14 @@
         new file:   media/brand_imgs/5.jpg
 
 
+#### 4.6.9 Product list Part 1 - Create product_list template, views and urls
+
+        modified:   README.md
+        modified:   _sourcecodes
+        new file:   apps/core/templates/core/product_list.html
+        modified:   apps/core/templates/core/shared/navbar.html
+        modified:   apps/core/urls.py
+        modified:   apps/core/views.py
 
 
 

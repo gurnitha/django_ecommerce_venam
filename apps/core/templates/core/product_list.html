@@ -1,0 +1,99 @@
+{% extends './base.html' %}
+{% load static %}
+{% block content %}
+<main class="container my-4">
+	<!-- Row -->
+	<div class="row">
+		<!-- Aside Filters -->
+		<div class="col-md-3">
+			<h3 class="mb-4 border-bottom pb-1">Filters</h3>
+			<!-- Filter 1: Colors-->
+			<div class="card mb-4">
+				<h6 class="card-header">Colors</h6>
+				<div class="list-group list-group-flush">
+					<li class="list-group-item">
+						<input value="" type="checkbox" />&nbsp;
+						<button class="btn" style="background-color: #F2766B; margin-top: -5px;"></button>
+					</li>
+					<li class="list-group-item">
+						<input value="" type="checkbox" />&nbsp;
+						<button class="btn" style="background-color: #21D789; margin-top: -5px;"></button>
+					</li>
+				</div>
+			</div>
+			<!-- Filter 2: Categories -->
+			<div class="card mb-4">
+				<h6 class="card-header">Categories</h6>
+				<div class="list-group list-group-flush">
+					<li class="list-group-item">
+						<input value="" type="checkbox" />&nbsp;
+						Category 1
+					</li>
+					<li class="list-group-item">
+						<input value="" type="checkbox" />&nbsp;
+						Category 2
+					</li>
+				</div>
+			</div>
+			<!-- Filter 3: Brands -->
+			<div class="card mb-4">
+				<h6 class="card-header">Brands</h6>
+				<div class="list-group list-group-flush">
+					<li class="list-group-item">
+						<input value="" type="checkbox" />&nbsp;
+						Brand 1
+					</li>
+					<li class="list-group-item">
+						<input value="" type="checkbox" />&nbsp;
+						Brand 2
+					</li>
+				</div>
+			</div>
+			<!-- Filter 3: Sizes-->
+			<div class="card mb-4">
+				<h6 class="card-header">Sizes</h6>
+				<div class="list-group list-group-flush">
+					<li class="list-group-item">
+						<input value="" type="checkbox" />&nbsp;
+						Size 1
+					</li>
+					<li class="list-group-item">
+						<input value="" type="checkbox" />&nbsp;
+						Size 2
+					</li>
+				</div>
+			</div>
+		</div>
+		<!-- End Aside Filters -->
+
+		<!-- Main Content -->
+		<div class="col-md-9">
+			<!-- Products -->
+			<h3 class="mb-4 border-bottom pb-1">
+				Products
+			</h3>
+			<div class="row">
+				<div class="col-md-4 mb-4">
+					<div class="card shadow">
+					  <a href=""><img src="" class="card-img-top" alt=""></a>
+					  <div class="card-body">
+					    <h6 class="card-text"><a href=""></a>Product 1</h6>
+					  </div>
+					  <div class="card-footer">
+					  	<button class="btn btn-sm btn-primary"><i class="fa fa-shopping-cart"></i></button>
+					  	<button class="btn btn-sm btn-danger"><i class="fa fa-heart"></i></button>
+					  	<span class="float-right">
+					  		4.5/5
+					  		<i class="fa fa-star text-warning"></i>
+					  	</span>
+					  </div>
+					</div>
+				</div>
+			</div>
+			<p class="my-4 text-center"><a href="" class="btn btn-dark btn-sm">Load More <i class="fa fa-sync"></i></a></p>
+		</div>
+		<!-- End Main Content -->
+	</div>
+	<!-- End Row -->
+</main>
+{% endblock %}
