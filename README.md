@@ -123,6 +123,15 @@
         modified:   apps/core/views.py
 
 
+#### 4.8.11 Slider/Banner (MVT)
+
+        modified:   README.md
+        modified:   apps/core/admin.py
+        modified:   apps/core/templates/core/inc/carousel.html
+        modified:   apps/core/views.py
+        new file:   media/banner_imgs/1_780XGMI_kTylBpy.jpg
+        new file:   media/banner_imgs/3_SstYTLA.jpg
+
 
 
 

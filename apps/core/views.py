@@ -4,15 +4,19 @@
 from django.shortcuts import render
 
 # Django locals
-from apps.core.models import Category, Brand, Product, ProductAttribute
+from apps.core.models import Banner, Category, Brand, Product, ProductAttribute
 
 # Create your views here.
 
 # Home page views
 def home(request):
+	banners = Banner.objects.all().order_by('-id')
 	data = Product.objects.filter(is_featured=True).order_by('-id')
-	print(data)
-	context = {'data':data}
+	print(banners)
+	context = {
+		'data':data,
+		'banners':banners
+	}
 	return render(request, 'core/index.html', context)
 
 # Category List views

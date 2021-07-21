@@ -2,20 +2,25 @@
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to=""></li>
+    {% for banner in banners %}
+        {% if forloop.counter == 1 %}
+        <li data-target="#carouselExampleIndicators" data-slide-to="{{forloop.counter}}" class="active"></li>
+        {% else %}
+        <li data-target="#carouselExampleIndicators" data-slide-to="forloop.counter"></li>
+        {% endif %}
+    {% endfor %}
 </ol>
 
 <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="{% static 'media/images/banners/1.jpg' %}" class="d-block w-100" alt="...">
-    </div>    
-    <div class="carousel-item">
-        <img src="{% static 'media/images/banners/2.jpg' %}" class="d-block w-100" alt="...">    
-    </div>    
-    <div class="carousel-item">
-        <img src="{% static 'media/images/banners/3.jpg' %}" class="d-block w-100" alt="...">    
-    </div>
+    {% for banner in banners %}
+        {% if forloop.counter == 1 %}
+        <div class="carousel-item active">
+        {% else %} 
+        <div class="carousel-item">
+        {% endif %} 
+            <img src="/media/{{banner.img}}" class="d-block w-100" alt="...">
+        </div> 
+    {% endfor %}
 
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
