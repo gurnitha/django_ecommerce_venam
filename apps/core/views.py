@@ -4,7 +4,7 @@
 from django.shortcuts import render
 
 # Django locals
-from apps.core.models import Category, Brand, Product
+from apps.core.models import Category, Brand, Product, ProductAttribute
 
 # Create your views here.
 
@@ -27,9 +27,26 @@ def brand_list(request):
 
 # Product List views
 def product_list(request):
-	data=Product.objects.all().order_by('-id')
-	context = {'data':data}
-	return render(request,'core/product_list.html',)
+	# Get all products and order by LIFO
+	data = Product.objects.all().order_by('-id')
+	# Get product based on category
+	cats   = Product.objects.distinct().values(
+				'category__title', 'category__id')
+	brands = Product.objects.distinct().values(
+				'brand__title', 'brand__id')
+	colors = ProductAttribute.objects.distinct().values(
+				'color__title', 'color__id', 'color__color_code')
+	sizes  = ProductAttribute.objects.distinct().values(
+				'size__title', 'size__id')
+	print(sizes)
+	context = {
+		'data':data,
+		'cats':cats,
+		'brands':brands,
+		'sizes':sizes,
+		'colors':colors
+	}
+	return render(request,'core/product_list.html', context)
 
 
 

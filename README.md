@@ -101,6 +101,16 @@
         modified:   apps/core/urls.py
         modified:   apps/core/views.py
 
+#### 4.6.9 Product list Part 1 - Insert and Read data based on (category, brand, color, and size)
+
+        modified:   README.md
+        modified:   _sourcecodes
+        modified:   apps/core/__pycache__/views.cpython-39.pyc
+        modified:   apps/core/templates/core/product_list.html
+        modified:   apps/core/views.py
+        new file:   media/product_imgs/1.jpg
+        new file:   media/product_imgs/5.jpg
+
 
 
 
