@@ -112,7 +112,15 @@
         new file:   media/product_imgs/5.jpg
 
 
+#### 4.7.10 Add Featured product (MVT)
 
+        modified:   README.md
+        modified:   apps/core/admin.py
+        new file:   apps/core/migrations/0002_auto_20210721_1307.py
+        new file:   apps/core/migrations/0003_product_is_featured.py
+        modified:   apps/core/models.py
+        modified:   apps/core/templates/core/index.html
+        modified:   apps/core/views.py
 
 
 

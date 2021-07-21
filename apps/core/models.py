@@ -83,6 +83,7 @@ class Product(models.Model):
     category=models.ForeignKey(Category,on_delete=models.CASCADE)
     brand=models.ForeignKey(Brand,on_delete=models.CASCADE)
     status=models.BooleanField(default=True)
+    is_featured=models.BooleanField(default=False)
 
     class Meta:
         verbose_name_plural='6. Products'

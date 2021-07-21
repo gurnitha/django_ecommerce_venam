@@ -10,7 +10,10 @@ from apps.core.models import Category, Brand, Product, ProductAttribute
 
 # Home page views
 def home(request):
-	return render(request, 'core/index.html')
+	data = Product.objects.filter(is_featured=True).order_by('-id')
+	print(data)
+	context = {'data':data}
+	return render(request, 'core/index.html', context)
 
 # Category List views
 def category_list(request):
