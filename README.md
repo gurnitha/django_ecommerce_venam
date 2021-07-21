@@ -62,3 +62,51 @@
         modified:   apps/core/views.py
         new file:   media/cat_imgs/4.jpg
         new file:   media/cat_imgs/4_GefSQZE.jpg
+
+
+#### 4.3.8 Customize Django Admin Part 1 - Adding class Meta
+
+        Note:
+        class Meta is about how to display the plural name of
+        the model/table in the admin panel.
+        It also possible to add siquance number for it. 
+
+        modified:   README.md
+        modified:   apps/core/models.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
