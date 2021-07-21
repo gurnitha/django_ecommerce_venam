@@ -81,9 +81,15 @@
         modified:   apps/core/models.py
 
 
+#### 4.5.8 Create brand_list page, Insert and Read data
 
-
-
+        modified:   README.md
+        new file:   apps/core/templates/core/brand_list.html
+        modified:   apps/core/templates/core/shared/navbar.html
+        modified:   apps/core/urls.py
+        modified:   apps/core/views.py
+        new file:   media/brand_imgs/1.jpg
+        new file:   media/brand_imgs/5.jpg
 
 
 

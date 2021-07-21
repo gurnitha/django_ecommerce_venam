@@ -4,7 +4,7 @@
 from django.shortcuts import render
 
 # Django locals
-from apps.core.models import Category
+from apps.core.models import Category, Brand
 
 # Create your views here.
 
@@ -13,7 +13,76 @@ def home(request):
 	return render(request, 'core/index.html')
 
 # Categories page views
-def category(request):
+def category_list(request):
 	data = Category.objects.all().order_by('-id')
 	context = {'data':data}
 	return render(request, 'core/category_list.html', context)
+
+
+# Brand
+# Categories page views
+def brand_list(request):
+	data = Brand.objects.all().order_by('-id')
+	print(data)
+	context = {'data':data}
+	return render(request, 'core/brand_list.html', context)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
