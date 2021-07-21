@@ -53,3 +53,12 @@
 
 #### 4.1.6 Adding and loading static files, create homepage using template inheritance
 
+
+#### 4.2.7 Creating category page
+
+        new file:   apps/core/templates/core/category_list.html
+        modified:   apps/core/templates/core/shared/navbar.html
+        modified:   apps/core/urls.py
+        modified:   apps/core/views.py
+        new file:   media/cat_imgs/4.jpg
+        new file:   media/cat_imgs/4_GefSQZE.jpg
