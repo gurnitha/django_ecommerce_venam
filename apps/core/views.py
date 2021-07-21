@@ -78,6 +78,28 @@ def category_product_list(request,cat_id):
 	return render(request,'core/category_product_list.html', context)
 
 
+# Brand List According to Brand
+def brand_product_list(request,brand_id):
+	brand  = Brand.objects.get(id=brand_id)
+	data   = Product.objects.filter(brand=brand).order_by('-id')
+	print(data)
+	cats   = Product.objects.distinct().values(
+				'category__title', 'category__id')
+	brands = Product.objects.distinct().values(
+				'brand__title', 'brand__id')
+	colors = ProductAttribute.objects.distinct().values(
+				'color__title', 'color__id', 'color__color_code')
+	sizes  = ProductAttribute.objects.distinct().values(
+				'size__title', 'size__id')	
+	context = {
+		'data':data,
+		'cats':cats,
+		'brands':brands,
+		'sizes':sizes,
+		'colors':colors
+	}
+	return render(request,'core/brand_product_list.html', context)
+
 
 
 

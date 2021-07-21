@@ -7,7 +7,7 @@ from django.urls import path
 from apps.core.views import (
         home, category_list, 
         brand_list, product_list, 
-        category_product_list)
+        category_product_list,brand_product_list)
 
 # appname
 app_name = 'core'
@@ -22,4 +22,6 @@ urlpatterns = [
                         product_list,name='product-list'),
     path('category-product-list/<int:cat_id>',
                         category_product_list,name='category-product-list'),
+    path('brand-product-list/<int:brand_id>',
+                        brand_product_list,name='brand-product-list'),
 ]

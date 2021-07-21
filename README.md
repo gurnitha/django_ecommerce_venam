@@ -143,6 +143,15 @@
         modified:   apps/core/views.py
 
 
+#### 4.10.13 Product list BASED-ON brand
+
+        modified:   README.md
+        modified:   apps/core/templates/core/brand_list.html
+        new file:   apps/core/templates/core/brand_product_list.html
+        modified:   apps/core/urls.py
+        modified:   apps/core/views.py
+        new file:   media/product_imgs/6.jpg
+
 
 
 
