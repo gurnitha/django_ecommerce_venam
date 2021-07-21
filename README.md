@@ -133,7 +133,14 @@
         new file:   media/banner_imgs/3_SstYTLA.jpg
 
 
+#### 4.9.12 Product list BASED-ON category
 
+        modified:   README.md
+        modified:   apps/core/templates/core/category_list.html
+        new file:   apps/core/templates/core/category_product_list.html
+        modified:   apps/core/templates/core/index.html
+        modified:   apps/core/urls.py
+        modified:   apps/core/views.py
 
 
 
