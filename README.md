@@ -75,6 +75,12 @@
         modified:   apps/core/models.py
 
 
+#### 4.4.8 Customize Django Admin Part 1 - Using mark_safe to showing image thumbnail in admin panel
+
+        modified:   apps/core/admin.py
+        modified:   apps/core/models.py
+
+
 
 
 

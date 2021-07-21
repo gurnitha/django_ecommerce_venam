@@ -2,6 +2,7 @@
 
 # Django modules
 from django.db import models
+from django.utils.html import mark_safe
 
 # Create your models here.
 
@@ -12,6 +13,9 @@ class Banner(models.Model):
 
     class Meta:
         verbose_name_plural='1. Banners'
+
+    def image_tag(self):
+        return mark_safe('<img src="%s" width="100" />' % (self.img.url))
 
     def __str__(self):
         return self.alt_text
@@ -24,6 +28,9 @@ class Category(models.Model):
 
     class Meta:
         verbose_name_plural='2. Categories'
+
+    def image_tag(self):
+        return mark_safe('<img src="%s" width="50" height="50" />' % (self.image.url))
 
     def __str__(self):
         return self.title
@@ -48,6 +55,9 @@ class Color(models.Model):
 
     class Meta:
         verbose_name_plural='4. Colors'
+
+    def color_bg(self):
+        return mark_safe('<div style="width:30px; height:30px; background-color:%s"></div>' % (self.color_code))
 
     def __str__(self):
         return self.title
@@ -89,7 +99,7 @@ class ProductAttribute(models.Model):
 
     class Meta:
         verbose_name_plural='7. ProductAttributes'
-        
+
     def __str__(self):
         return self.product.title
     

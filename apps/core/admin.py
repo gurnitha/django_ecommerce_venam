@@ -17,11 +17,11 @@ class BannerAdmin(admin.ModelAdmin):
 admin.site.register(Banner,BannerAdmin)
 
 class CategoryAdmin(admin.ModelAdmin):
-	list_display=('title',)
+	list_display=('title','image_tag')
 admin.site.register(Category,CategoryAdmin)
 
 class ColorAdmin(admin.ModelAdmin):
-	list_display=('title',)
+	list_display=('title','color_bg')
 admin.site.register(Color,ColorAdmin)
 
 class ProductAdmin(admin.ModelAdmin):
