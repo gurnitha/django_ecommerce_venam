@@ -152,10 +152,12 @@
         modified:   apps/core/views.py
         new file:   media/product_imgs/6.jpg
 
+NEXT> Product detail page
+https://www.youtube.com/watch?v=v84C7mxZr3c&list=PLgnySyq8qZmrxJvJbZC1eb7PD4bu0a-sB&index=11
 
+#### Github repository
 
-
-
+        modified:   README.md
 
 
 
